@@ -1,0 +1,39 @@
+.card-container{
+  display: flex;
+  justify-content: center;
+  max-width: 400px;
+  min-width: 300px;
+  height: auto;
+  border-radius: 4px;
+  background-color: #966fc2;
+  color: #ffffff;
+  .card{
+    width: 100%;
+    padding: 10px;
+    .body{
+      table{
+        tr{
+          th{
+            width: 100px;
+            text-align: left;
+          }
+          td{
+            max-width: 100%;
+            padding: 10px;
+          }
+        }
+      }
+    }
+    .footer{
+      padding: 10px 20px 10px 0;
+    }
+  }
+  .status-danger{
+    color: #ff0000;
+    font-weight: 600;
+  }
+  .status-success{
+    color: #6efc1b;
+    font-weight: 600;
+  }
+}

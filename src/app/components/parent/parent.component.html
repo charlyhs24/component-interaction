@@ -1,0 +1,25 @@
+<div class="card-container">
+  <div class="card">
+    <div class="body">
+      <table>
+        <tbody>
+          <tr>
+            <th>Nama Buku</th>
+            <td>Clean Code: A Handbook of Agile Software Craftsmanship 1st Edition</td>
+          </tr>
+          <tr>
+            <th>Harga</th>
+            <td>Rp.500.0000</td>
+          </tr>
+          <tr>
+            <th>Status Pembayaran</th>
+            <td [class]="changeColor()">{{status}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="footer">
+      <app-child (clickEvent)="Clickhandler($event)" text="Konfirmasi Pembayaran"></app-child>
+    </div>
+  </div>
+</div>
