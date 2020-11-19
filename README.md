@@ -1,3 +1,15 @@
+## Component Interaction with Angular :rocket:
+
+In the project directory, you can run:
+
+### `npm install` :point_left:
+
+### `ng serve` :point_left:
+
+Open [http://localhost:4200](http://localhost:4200) to view it in the browser.
+The page will reload if you make edits.
+
+
 # Testing
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.0.
